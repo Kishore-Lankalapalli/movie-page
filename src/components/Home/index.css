@@ -1,0 +1,108 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  height: 10vh;
+  background-color: #ebf7f7;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+  }
+}
+.header-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #758182;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .header-heading {
+    font-size: 20px;
+  }
+}
+.company-info-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #758182;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .company-info-text {
+    font-size: 17px;
+  }
+}
+
+.company-info-text:hover {
+  color: green;
+}
+.movies-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .movies-list-container {
+    margin-top: 150px;
+  }
+}
+.company-details-container {
+  height: 300px;
+  width: 100%;
+
+  background-color: #000;
+
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .company-details-container {
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+  }
+}
+.company-name-text {
+  color: #cfb2b0;
+  font-size: 16px;
+  margin: 15px;
+  margin: 10px;
+}
+.company-name {
+  color: #fff;
+}
+.close-button {
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+  cursor: pointer;
+  outline: none;
+}
+
+.cross-icon {
+  color: #fff;
+  height: 25px;
+  width: 25px;
+}

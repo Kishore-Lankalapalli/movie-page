@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+* {
+  margin: 0px;
+}
+.sign-up-page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d3d70;
+  margin: 0px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #13233d;
+  width: 300px;
+  border-radius: 7px;
+  padding: 20px;
+}
+.label-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #9bb9e8;
+  font-weight: bolder;
+}
+.input-element {
+  height: 27px;
+  width: 250px;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+
+/* input:hover {
+  border: 1px solid #518be8;
+} */
+.input-container {
+  margin: 10px;
+}
+.submit-button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  height: 25px;
+  width: 90px;
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.link-element {
+  text-decoration: none;
+}
+.login-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #8045c4;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.login-text:hover {
+  color: #fff;
+}
+.sign-up-page-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #fff;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
